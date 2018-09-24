@@ -1,0 +1,73 @@
+#backgroundImage {
+/*	position: fixed;*/
+	padding-top: -200px;
+}
+
+header {
+	background: #100f19;
+	color: #e4cfb8;
+	font-size: 100px;
+	font-family: courier;
+	height: auto;
+	padding: 50px;
+	width: 100%;
+}
+
+
+body{
+	background: #dfdfe1;
+}
+
+.displayParagraph, footer {
+	background: #282828;
+	color: aliceblue;
+	font-size: 50;
+	padding: 50px;
+	line-height: normal;
+	position: absolute;
+}
+
+.displayParagraph {
+	top: 1350px;
+}
+
+footer {
+	top: 2525px;
+}
+
+.name {
+	font-size: 60px;
+	padding-left: 20px;
+	font-style: oblique;
+}
+
+.grid {
+	position: relative;
+	top: 200px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	padding: 100px;
+}
+
+.museum {
+	padding-top: 0px;
+	width: 100%;
+}
+
+
+.larimer {
+	width: 95%;
+	height: 500px;
+	padding: 0;
+}
+
+.bridge {
+	width: 95%;
+	height: 500px;
+}
+
+.house {
+	width: 95%;
+	height: 500px;
+}
